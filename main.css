@@ -35,12 +35,14 @@
   font-weight: 300;
 }
 .navbar .menu .burger {
+  right: 20px;
   height: 4rem;
   width: 3rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
 }
 .navbar .menu .burger .bar {
   width: 1.9rem;
