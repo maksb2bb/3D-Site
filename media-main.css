@@ -1,0 +1,12 @@
+@media (max-width:640px) {
+    .container .main {
+      max-width: 50%;
+    }
+    .container .shadow.one {
+        max-width: 50%;
+      }
+      .container .shadow.two {
+        max-width: 50%;
+      }
+} 
+
