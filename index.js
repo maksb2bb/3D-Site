@@ -1,5 +1,6 @@
 const burger = document.querySelector('.burger')
 const container = document.querySelector('.container')
+const screens = document.querySelectorAll('.screen')
 const haveClass = container.classList.contains("active")
 
 
