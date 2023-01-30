@@ -1,10 +1,19 @@
 const burger = document.querySelector('.burger')
 const container = document.querySelector('.container')
 const screens = document.querySelectorAll('.screen')
+const haveClass = container.classList.contains("active")
+let headElm = document.createElement('<link rel="stylesheet" href="./media-main.css">');
+
 
 burger.addEventListener('click', () =>{
     container.classList.toggle('active')
 })
+
+if(haveClass){
+    document.head.append(headElm)
+}else{
+    console.log('have not class');
+}
 
 function replaceBg(id) {
     const bg = document.getElementById(id)
