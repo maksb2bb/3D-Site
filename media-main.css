@@ -1,12 +1,17 @@
-@media (max-width:640px) {
-    .container .main {
-      max-width: 50%;
+@media (max-width:640px) {  
+    .container.active .main {
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 50%;
     }
-    .container .shadow.one {
-        max-width: 50%;
-      }
-      .container .shadow.two {
-        max-width: 50%;
-      }
+    
+    .container.active .shadow.one {
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 50%;
+    }
+    
+    .container.active .shadow.two {
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 50%;
+    }
 } 
 
